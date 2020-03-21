@@ -1,5 +1,9 @@
 <project name="gitclass" basedir="." default="">
 
+<target name="1">
+<echo message="this is target1"/>
+</target>
+
 
 
 </project>
