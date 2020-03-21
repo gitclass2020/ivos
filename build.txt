@@ -3,6 +3,7 @@
 <target name="1">
 <echo message="this is target1"/>
 <echo>this is target1</echo>
+<echo>pull test</echo>
 </target>
 
 
