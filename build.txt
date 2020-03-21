@@ -2,10 +2,22 @@
 
 <target name="1">
 <echo message="this is target1"/>
+<echo>this is target1</echo>
+<echo>pull test</echo>
 </target>
+
+33333333333333333333
+ooooooooooooooooooooo
 
 
 
 stash1
 stash0
+
+9999999999999999
+stash0
+
+
+stash1
+
 </project>
