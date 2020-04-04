@@ -12,7 +12,7 @@ checkout([$class: 'GitSCM', branches: [[name: 'master']], doGenerateSubmoduleCon
 	steps {
 //		bat 'echo %BUILD_NUMBER%'
 //		bat label: '', script: 'echo %BUILD_NUMBER%'
-		echo 'TESTING PIPELINE'
+		echo 'TESTING PIPELINE - MASTER'
 	}
    }
  }
