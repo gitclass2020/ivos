@@ -10,9 +10,9 @@ checkout([$class: 'GitSCM', branches: [[name: 'master']], doGenerateSubmoduleCon
    
    stage(command-exec) {
 	steps {
-//	script{
-		bat label: '', script: 'echo %BUILD_NUMBER%'
-//	  }
+	script{
+		echo %BUILD_NUMBER%
+	  }
 	}
    }
  }
