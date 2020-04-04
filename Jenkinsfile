@@ -10,9 +10,9 @@ stages {
    
    stage(command-exec) {
 	steps {
-	script{
+//	script{
 		bat label: '', script: 'echo %BUILD_NUMBER%'
-	  }
+//	  }
 	}
    }
  }
