@@ -11,13 +11,13 @@ checkout([$class: 'GitSCM', branches: [[name: 'master']], doGenerateSubmoduleCon
 		DATE_TAG = java.time.LocalDte.now()
 		DATETIME_TAG = java.time.LocalDateTime.now()
 	   }
-     echo ${DATETIME_TAG}
+     echo "${DATETIME_TAG}"
 	 }
    }
    stage(print) {
 	steps {
 		echo 'TESTING PIPELINE - HOTFIX'
-		echo ${DATETIME_TAG}
+		echo "${DATETIME_TAG}"
 	
 	script {
 		def now = new Date()
